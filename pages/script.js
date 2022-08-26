@@ -17,8 +17,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
   let i;
-  const slides = document.querySelector('.banner__img');
-  const dots = document.querySelector('.banner__slide-dots_item');
+  const slides = document.getElementsByClassName('banner__img');
+  const dots = document.getElementsByClassName('banner__slide-dots_item');
   if (n > slides.length) {
     slideIndex = 1
   }
