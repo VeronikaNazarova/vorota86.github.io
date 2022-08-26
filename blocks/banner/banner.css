@@ -1,0 +1,152 @@
+.banner {
+  
+  background-color: #889687;
+  width: 100%;
+  height: 100vh;
+  max-height: 900px;
+  background: linear-gradient(to right, #e7e7e9 75%, #282e2b 25%);
+  display: grid;
+  grid-template-columns: 62% 38%;
+}
+
+.banner__lead {
+  margin-top: 170px;
+  text-align: center;
+  justify-self: center;
+  align-self: end;
+  padding-bottom:7%;
+}
+
+.banner__images {
+  align-self: end;
+  margin-bottom: 9%;
+}
+
+
+.banner__heading {
+  font-size: 60px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.banner__text {
+  font-size: 25px;
+}
+
+.banner__button {
+  margin: 30px 0;
+}
+
+.banner__menu {
+  padding-top: 20%;
+  font-family: "RS";
+}
+.banner__search {
+  display: flex;
+  justify-content: center;
+}
+
+.banner__item {
+  font-size: 26px;
+  padding: 0 40px;
+}
+
+
+
+.banner__slide {
+  padding-bottom: 10% ;
+}
+
+.banner__img {
+  width: 70%;
+  border: none;
+  transition: 3s linear;
+}
+
+
+.banner__slide-dots_item {
+  cursor: pointer;
+  background-color: #000;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+
+.active,
+.banner__slide-dots_item:hover {
+    background-color: #000;
+}
+/* Анимация слайдов */
+.banner__slide .banner__img {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+  .banner__item {
+    font-size: 20px;
+  }
+  .banner__menu {
+    padding-top: 10%;
+  }
+  .banner__heading {
+    font-size: 50px;
+  }
+  .banner__text {
+    font-size: 20px;
+  }
+  .banner__lead {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .banner__item {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .banner__heading {
+    font-size: 37px;
+  }
+  .banner__text {
+    font-size: 17px;
+  }
+  .banner__button {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .banner {
+    max-height: 1200px;
+  }
+  .banner__lead {
+    padding-bottom: 27%;
+  }
+  .banner__images {
+    margin-bottom: 39%;
+  }
+}
+
+
+
+
+

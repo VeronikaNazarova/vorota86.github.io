@@ -1,0 +1,46 @@
+.button {
+  position: relative;
+  appearance: none;
+  color: #e7e7e9;
+  text-shadow: 2px 2px 5px #282e2b;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #865b3e;
+  border: none;
+}
+
+.button span {
+  position: relative;
+  pointer-events: none;
+}
+
+.button::before {
+  --size: 0;
+  content: "";
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #3b4642, transparent);
+  transform: translate(-50%, -50%);
+  transition: width .5s ease, height .5s ease;
+}
+
+
+
+.button:hover::before {
+  --size: 400px;
+}
+
+@media screen and (max-width: 860px) {
+  .button {
+    width: 150px;
+    height: 45px;
+    font-size: 17px;
+  }
+}

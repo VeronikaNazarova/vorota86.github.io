@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "Lato Bold";
+	src: url("../fonts/lato-bold.eot") format('eot'),
+		url("../fonts/lato-bold.ttf") format("truetype"),
+		url("../fonts/lato-bold.woff") format("woff"), 
+		url("../fonts/lato-bold.woff2") format("woff2"); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url("../fonts/noto-sans/noto-sans.eot") format('eot'),
+		url("../fonts/noto-sans/noto-sans.ttf") format("truetype"), 
+		url("../fonts/noto-sans/noto-sans.woff") format("woff"), 
+		url("../fonts/noto-sans/noto-sans.woff2") format("woff2"); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "RS";
+	src: url("../fonts/RS-extrabold.otf");
+}
+@font-face {
+	font-family: "RS";
+	src: url("../fonts/RS-extralight.otf");
+}
+
+@font-face {
+	font-family: "RS";
+	src: url("../fonts/RS-regular.otf");
+}
+
+@font-face {
+	font-family: "RS";
+	src: url("../fonts/RS-semibold.otf");
+}

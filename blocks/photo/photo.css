@@ -1,0 +1,142 @@
+.photo {
+  padding-bottom: 60px;
+}
+
+.photo__title {
+  text-align: center;
+}
+
+.photo__nav {
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.photo__sliding-gates {
+  display: grid;
+  gap: 2%;
+  grid-template-areas: "one one two three"
+                        "one one four four";
+}
+
+.photo__garage-doors {
+  display: none;
+  gap: 2%;
+  grid-template-areas: "five six seven";
+}
+
+.photo__item {
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+
+
+.photo__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+
+}
+
+.photo__img:hover {
+  opacity: 1;
+}
+
+.photo__item {
+  width: 100%;
+}
+
+
+.photo__one {
+  height: 100%;
+  grid-area: one;
+  
+}
+.photo__two {
+  grid-area: two;
+}
+.photo__three {
+  grid-area: three;
+}
+.photo__four {
+  height: 300px;
+  grid-area: four;
+}
+
+.photo__five {
+  grid-area: five;
+
+}
+
+.photo__six {
+  grid-area: six;
+  
+}
+
+.photo__seven {
+  grid-area: seven;
+  
+}
+
+.photo__description {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  bottom: 10%;
+  left:0;
+  margin: 5% 15%;
+  text-shadow: 2px 2px 4px #734222;
+}
+
+
+.photo__subtitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.photo__text {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 940px) {
+  .photo__description {
+    margin: 5% 10%;
+  }
+  .photo__subtitle {
+    font-size: 16px;
+  }
+  
+  .photo__text {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 648px) {
+  .photo__description {
+    margin: 5% 9%;
+  }
+  .photo__subtitle {
+    font-size: 12px;
+  }
+  
+  .photo__text {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .photo__subtitle {
+    font-size: 8px;
+  }
+  
+  .photo__text {
+    display: none;
+  }
+}
+
+

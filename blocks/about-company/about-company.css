@@ -1,0 +1,25 @@
+.about-company {
+  padding: 190px 0;
+  display: grid;
+  grid-template-columns: 16% 23% 23% 23%;
+  gap: 5%;
+}
+
+
+
+.about-company__subtitle {
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+.about-company__title {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  margin-top: 70px;
+  margin-left: -50px;
+  padding-bottom: 30px;
+  
+}
+

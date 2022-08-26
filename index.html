@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=”icon” href=”favicon.svg” type="image/svg+xml">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>VOROTA86</title>
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <div class="header-top">
+            <div class="header-top__logo">
+              <div class="logo">
+                <p class="logo__text">vorota</p>
+                <p class="logo__number">86</p>
+                <p class="logo__text">surgut</p>
+              </div>
+            </div>
+            <nav class="header-top__menu">
+              <ul class="header-top__search">
+                <li class="header-top__item">
+                  <a href="#company">О компании</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#">Фото</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#">Стоимость</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-top__number">
+              <a class="header-top__link" href="tel:+79922229777">+7 992 222 97 77</a>
+            </div>
+          </div>
+          
+        </div>
+      </header>
+      <main class="content">
+        <section class="banner">
+            <div class="banner__lead">
+              <div>
+                <h1 class="banner__heading">Ворота<br> под ключ</h1>
+              <p class="banner__text">Сделаем ворота<br> в рассрочку под ключ</p>
+              <button class="button banner__button">
+                <span>Связаться</span>
+              </button>
+              </div>
+              
+              <nav class="banner__menu">
+                <ul class="banner__search">
+                  <li class="banner__item">
+                    <a class="banner__link" href="#">Ворота</a>
+                  </li>
+                  <li class="banner__item">
+                    <a class="banner__link" href="#">Заборы</a>
+                  </li>
+                  <li class="banner__item">
+                    <a class="banner__link" href="#">Навесы</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="banner__images">
+              
+              <div class="banner__slide">
+                <img  class="banner__img" src="./images/banner.jpg" alt=""/>
+                
+                <img class="banner__img" src="./images/banner1.jpg" alt=""/>  
+                <img class="banner__img" src="./images/banner2.jpg" alt=""/>  
+                <img class="banner__img" src="./images/banner3.jpg" alt=""/>  
+                <img class="banner__img" src="./images/banner4.jpg" alt=""/>  
+               
+              </div>
+              <div class="banner__slide-dots">
+                <span class="banner__slide-dots_item" onclick="currentSlide(1)"></span> 
+                <span class="banner__slide-dots_item" onclick="currentSlide(2)"></span> 
+                <span class="banner__slide-dots_item" onclick="currentSlide(3)"></span> 
+                <span class="banner__slide-dots_item" onclick="currentSlide(4)"></span> 
+                <span class="banner__slide-dots_item" onclick="currentSlide(5)"></span> 
+              </div>
+            </div>
+              
+            
+        </section>
+        <section id="company" class="about-company container">
+          <div class="about-company__item title-line">
+            <h2 class="title about-company__title">Vorota 86</h2>
+            <div class="title-line__item"></div>
+          </div>
+          <div class="about-company__item">
+            <div class="about-company__subtitle">5 лет</div>
+            <div class="about-company__text">С 2017 года на рынке строительных услуг ХМАО. Начинали с производства и установки легких распашных ворот. На сегодняшний день производим промышленные конструкции для крупных предприятий города.</div>
+          </div>
+          <div class="about-company__item">
+            <div class="about-company__subtitle">Рассрочка</div>
+            <div class="about-company__text">Взаимодействуем с 5 банками напрямую. Подбираем комфортный платёж для любого кошелька.</div>
+          </div>
+          <div class="about-company__item">
+            <div class="about-company__subtitle">Качество</div>
+            <div class="about-company__text">Качественное производство и гарантийное обсулуживание. Использование современного оборудования.</div>
+          </div>        
+          
+        </section>
+        <section class="photo container">
+          <div class="title-line">
+            <h2 class="title photo__title">Галерея</h2>
+            <div class="title-line__item title-line__item_bottom"></div>
+          </div>
+          <nav class="photo__nav">
+            <a href="#" class="photo__link sliding-gates">Откатные<br> ворота</a>
+            <a href="#" class="photo__link garage-doors">Гаражные<br> ворота</a>
+            <a href="#" class="photo__link swing-gates">Распашные<br> ворота</a>
+            <a href="#" class="photo__link sectional-doors">Секционные<br> ворота (Alutech)</a>
+            <a href="#" class="photo__link fences">Заборы</a>
+            <a href="#" class="photo__link awnings">Навесы</a>
+          </nav>
+          <div class="photo__sliding-gates ">
+            <a class="photo__item photo__one">
+              <img src="./images/banner.jpg" alt="" class="photo__img">
+              <div class="photo__description">
+                <p class="photo__subtitle">Подвесные откатные ворота</p>
+                <p class="photo__text">Ворота с профнастилом. Длина 10 м</p>
+              </div>
+            </a>
+            <a class="photo__item photo__two">
+              <img src="./images/banner.jpg" alt="" class="photo__img">
+              <div class="photo__description">
+                <p class="photo__subtitle">Подвесные откатные ворота</p>
+                <p class="photo__text">Ворота с профнастилом. Длина 10 м</p>
+              </div>
+            </a>
+            <a class="photo__item photo__three">
+              <img src="./images/banner.jpg" alt="" class="photo__img">
+              <div class="photo__description">
+                <p class="photo__subtitle">Подвесные откатные ворота</p>
+                <p class="photo__text">Ворота с профнастилом. Длина 10 м</p>
+              </div>
+            </a>
+            <a class="photo__item photo__four">
+              <img src="./images/banner.jpg" alt="" class="photo__img">
+              <div class="photo__description">
+                <p class="photo__subtitle">Подвесные откатные ворота</p>
+                <p class="photo__text">Ворота с профнастилом. Длина 10 м</p>
+              </div>
+            </a>
+          </div>
+          <div class="photo__garage-doors">
+            <a class="photo__item photo__five">
+              <img src="./images/banner.jpg" alt="" class="photo__img">
+              <div class="photo__description">
+                <p class="photo__subtitle">Подвесные откатные ворота</p>
+                <p class="photo__text">Ворота с профнастилом. Длина 10 м</p>
+              </div>
+            </a>
+            <a class="photo__item photo__six">
+              <img src="./images/banner.jpg" alt="" class="photo__img">
+              <div class="photo__description">
+                <p class="photo__subtitle">Подвесные откатные ворота</p>
+                <p class="photo__text">Ворота с профнастилом. Длина 10 м</p>
+              </div>
+            </a>
+            <a class="photo__item photo__seven">
+              <img src="./images/banner.jpg" alt="" class="photo__img">
+              <div class="photo__description">
+                <p class="photo__subtitle">Подвесные откатные ворота</p>
+                <p class="photo__text">Ворота с профнастилом. Длина 10 м</p>
+              </div>
+            </a>
+            
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="container">
+            <h2 class="title contacts__title">Контакты</h2>
+            <form action="" class="form contacts__form">
+              <h4 class="form__title">Ваша заявка</h4>
+              <div class="form__item"></div>
+              <div class="form__name">
+                <input placeholder="Имя" type="text" class="form__input" minlength="2" maxlength="30" required>
+              </div>
+              <div class="form__tel">
+                <input placeholder="Номер телефона" type="tel" class="form__input" required>
+              </div>
+              <button type="submit" class="button form__button">
+                <span>Отправить заявку</span>
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__rows">
+            <ul class="footer__contacts">
+              <li class="footer__item">628403, Сургут</li>
+              <li class="footer__item">17-й микрорайон</li>
+              <li class="footer__item">30 лет Победы, 7/1</li>
+            </ul>
+            <ul class="footer__contacts">
+              <li class="footer__item">
+                <a class="footer__item-link" href="">vorota86surgut@mail.ru</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__item-link"  href="tel:+79922229777">+7 992 222 97 77</a>
+              </li>
+            </ul>
+            <div class="footer__social">
+              <a class="footer__social-item">
+                <img src="./images/instagram.svg" alt="">
+              </a>
+              <a class="footer__social-item">
+                <img src="./images/telegram.svg" alt="">
+              </a>
+              <a class="footer__social-item">
+                <img src="./images/vk.svg" alt="">
+              </a>
+              <a class="footer__social-item">
+                <img src="./images/whatsapp.svg" alt="">
+              </a>
+            </div>
+            <div class="logo logo_footer">
+              <p class="logo__text_footer">vorota</p>
+              <p class="logo__number_footer">86</p>
+              <p class="logo__text_footer">surgut</p>
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <script src="./pages/script.js"></script>
+  </body>
+</html>

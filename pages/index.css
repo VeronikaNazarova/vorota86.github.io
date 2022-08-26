@@ -1,0 +1,30 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/title/title.css);
+
+@import url(../blocks/title-line/title-line.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header-top/header-top.css);
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/header-menu/header-menu.css);
+
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/carousel-3d/carousel-3d.css);
+
+@import url(../blocks/about-company/about-company.css);
+
+@import url(../blocks/products/products.css);
+@import url(../blocks/item-product/item-product.css);
+
+@import url(../blocks/photo/photo.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/form/form.css);
+
+@import url(../blocks/footer/footer.css);

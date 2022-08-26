@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #e7e7e9;
+  font-size: 18px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-shadow: 2px 2px 4px #734222;
+}
+
+li {
+  list-style: none;
+}
